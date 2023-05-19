@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900display&swap);
+
+body {
+	font-family: Lato, sans-serif;
+	color: #424551;
+
+	color: #424551;
+	line-height: 1.6;
+
+}
+
+.header__container,
+.main__container,
+.footer__container {
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+.header {
+	padding-top: 190px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+
+.date {
+	background: url(../img/date.svg) 0 4px / 16px no-repeat;
+	margin-right: 24px;
+}
+
+.time {
+	background: url(../img/Union.svg) 0 4px / 16px no-repeat;
+}
+
+.date,
+.time {
+	display: inline-block;
+	padding-left: 24px;
+	color: #787A80;
+
+}
+
+/* .icons {
+	display: inline-block;
+	padding-left: 414px;
+	padding-right: 93px;
+	color: #1E212C;
+	/* , , url(../img/Linkedin.svg)100% 50% /16.67px 16.67px no-repeat;} */
+
+
+.facebook {
+	display: inline-block;
+	background: url(../img/facebook.svg)0 0 / 20px 20px no-repeat;
+	width: 20px;
+	height: 20px
+}
+
+.twitter {
+	background: url(../img/Twitter.svg)100% 75% /13.61px 17.5px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.linkedin {
+	background: url(../img/Linkedin.svg)0 0 / 20px 20px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+
+.facebook1,
+.twitter1,
+.linkedin1 {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.img {
+	margin-bottom: 60px;
+	max-width: 810px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.par1 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+
+.par2 {
+	margin-bottom: 26px;
+}
+
+.par3 {
+	margin-bottom: 48px;
+}
+
+.par4 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-left: 58px;
+	background: url(../img/braces.svg)0 0/28px 20px no-repeat;
+}
+
+.one {
+	padding-left: 32px;
+	background: url(../img/check.svg)0 4px/16px 16px no-repeat;
+
+}
+
+/* .one {
+	margin-bottom: 4px;
+} */
+
+.list li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.list {
+	margin-bottom: 24px;
+}
+
+.main {
+	margin-bottom: 64px;
+}
+
+.share {
+	display: inline-block;
+	padding-left: 668px;
+	padding-right: 93px;
+	color: #1E212C;
+	font-weight: 700;
+	background: url(../img/facebook.svg)725px 50% / 9.65px 18.3px no-repeat, url(../img/Twitter.svg)754px 75% /13.61px 17.5px no-repeat, url(../img/Linkedin.svg)100% 50% /16.67px 16.67px no-repeat;
+}
